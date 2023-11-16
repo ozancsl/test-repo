@@ -1,6 +1,17 @@
 #include <iostream>
 
+struct foo
+{
+    int x;
+};
+
 int main()
 {
-    return 0;
+    auto a = new foo {};
+
+    a->x = rand();
+
+    a = new foo {};
+
+    return a->x;
 }
