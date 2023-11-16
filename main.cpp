@@ -13,5 +13,7 @@ int main()
 
     std::cout << a->x << std::endl;
 
+    a = new foo {};
+
     return a->x;
 }
