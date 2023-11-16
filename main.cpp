@@ -11,7 +11,7 @@ int main()
 
     a->x = rand();
 
-    a = new foo {};
+    std::cout << a->x << std::endl;
 
     return a->x;
 }
